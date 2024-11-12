@@ -82,3 +82,15 @@ if (fruit==="banana") {
 }else {
     console.log("we do not have any fruit in our store")
 }
+
+let fruit1 = "apple";
+switch (fruit1) {
+    case "banana":
+        console.log("it is banana");
+        break;
+    case "apple":
+        console.log("it is apple");
+        break;
+    default:
+        console.log("we do not have any fruits")    
+}
