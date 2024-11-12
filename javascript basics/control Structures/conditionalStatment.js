@@ -53,3 +53,20 @@ if (paidSchoolFees1 && haveGoodHealth1) {
 } else{
     console.log("GO BACK HOME")
 }
+
+let age4 = 25;
+if(age4> 25) {
+    console.log("your age is above 25")
+} else {
+    console.log("your age is below 25")
+}
+
+let age5 = 25;
+if(age5> 25) {
+    console.log("your age is above 25")
+}else if(age <25) {
+    console.log("your age is below 25")
+}else {
+    console.log("your age is 25")
+}
+
