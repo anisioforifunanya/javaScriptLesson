@@ -104,5 +104,5 @@ switch (age6) {
         console.log("your age is below 25");
         break;
     default:
-        console.log("your age is 25");
+        console.log("your age is 25");/*Your age is 25 is the answer */
 }
