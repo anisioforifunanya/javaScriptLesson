@@ -69,4 +69,16 @@ if(age5> 25) {
 }else {
     console.log("your age is 25")
 }
-
+ 
+let fruit = "apple";
+if (fruit==="banana") {
+    console.log("We have banana in the store")
+} else if (fruit==="Orange"){
+    console.log("we have orange in our store")
+} else if (fruit==="coconut") {
+    console.log("coconut is in our store")
+}else if(fruit==="apple"){
+    console.log("we have apple in our store")
+}else {
+    console.log("we do not have any fruit in our store")
+}
