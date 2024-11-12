@@ -94,3 +94,15 @@ switch (fruit1) {
     default:
         console.log("we do not have any fruits")    
 }
+
+let age6 = 25;
+switch (age6) {
+    case age6>25:
+        console.log("your age is above 25");
+        break;
+    case age6< 25:
+        console.log("your age is below 25");
+        break;
+    default:
+        console.log("your age is 25");
+}
