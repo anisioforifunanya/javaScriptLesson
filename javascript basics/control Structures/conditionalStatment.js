@@ -28,7 +28,7 @@ const isSuperUser1 = true;
 if (isAdmin || isSuperUser1) {
     console.log("You can have access to the app")
 } else {
-    console.log("you can't be allowed into our app")
+    console.log("you can't be allowed into our app")/*The answer is True because in OR True+False is =True 1+0=1 */
 }
 
 //write if statement that checkes if checkes if someone has paid school fees and  also have good health before the person can have access to the 
@@ -40,7 +40,7 @@ const paidSchoolFees = true;
 const haveGoodHealth = true;
 
 if (paidSchoolFees && haveGoodHealth) {
-    console.log("Welcome to the class")
+    console.log("Welcome to the class")/*YOUR ANSWER IS WELCOME TO THE CLASS */
 } else{
     console.log("GO BACK HOME")
 }
@@ -51,14 +51,14 @@ const haveGoodHealth1 = false;
 if (paidSchoolFees1 && haveGoodHealth1) {
     console.log("Welcome to the class")
 } else{
-    console.log("GO BACK HOME")
+    console.log("GO BACK HOME")/*Your answer is GO BACK HOME */
 }
 
 let age4 = 25;
 if(age4> 25) {
     console.log("your age is above 25")
 } else {
-    console.log("your age is below 25")
+    console.log("your age is below 25")/*The answer is your age is below 25 */
 }
 
 let age5 = 25;
@@ -67,7 +67,7 @@ if(age5> 25) {
 }else if(age <25) {
     console.log("your age is below 25")
 }else {
-    console.log("your age is 25")
+    console.log("your age is 25")/*The answer is age is 25 because it's inbetween >25 and <25  */
 }
  
 let fruit = "apple";
@@ -78,7 +78,7 @@ if (fruit==="banana") {
 } else if (fruit==="coconut") {
     console.log("coconut is in our store")
 }else if(fruit==="apple"){
-    console.log("we have apple in our store")
+    console.log("we have apple in our store")/*The answer is "we have apple in our store" */
 }else {
     console.log("we do not have any fruit in our store")
 }
@@ -89,7 +89,7 @@ switch (fruit1) {
         console.log("it is banana");
         break;
     case "apple":
-        console.log("it is apple");
+        console.log("it is apple");/*The answer is "It's is apple" */
         break;
     default:
         console.log("we do not have any fruits")    
