@@ -24,3 +24,11 @@ const students = [
 for(let i=0; i < students.length; i++) {
     console.log("Student:", students[i].name, "Grade:", students[i].grade);
 }
+
+
+const aboutMe = [
+    {name:"alex", school:"New Horizon", course:"Full-Stack Web Development"}
+]
+for(let i=0; i<aboutMe.length;i++) {
+    console.log("My Name is:", aboutMe[i].name, "and i school in", aboutMe[i].school, "i'm currently studying", aboutMe[i].course);
+}
