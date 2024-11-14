@@ -11,3 +11,8 @@ const colors=["red", "green", "blue", "yellow"]
 for (let i=0; i<colors.length; i++) {
     console.log("color:", colors[i]);
 }
+
+const fruits=["mango", "orange", "carrot", "pawpaw", "pea"]
+for (let i=0; i<fruits.length; i++) {
+    console.log("List of Fruits:", fruits[i]);
+}
