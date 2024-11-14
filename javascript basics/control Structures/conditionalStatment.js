@@ -106,3 +106,17 @@ switch (age6) {
     default:
         console.log("your age is 25");/*Your age is 25 is the answer */
 }
+const actions = ["start", "stop", "pause",]; // Creating an array of non primitive data.
+let userAction = "start"; // creating a single variable by picking or singling out one item in the array of non primitive data created.
+let isLoggedIn = true;  // A variable declaring that the data is true ...BOOLEAN
+switch(true) {
+    case actions.includes(userAction) && isLoggedIn: // Switch true if the userAction and isLoggedIn are both true. 
+        console.log("Action permitted:" + userAction )  // console logged action will be to "Start"
+        break;
+    case actions.includes(userAction) && !isLoggedIn: // switch true if case userAction is true and isLoggedIn is false.
+        console.log("please log in to perform this action"); // console logged action will be "please log in to perform this action"
+        break;
+    default: 
+        console.log("No valid case"); // this happens if the subject matter is false or has a combinations of different datatypes
+
+}
