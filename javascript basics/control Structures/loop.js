@@ -19,7 +19,7 @@ for (let i=0; i<fruits.length; i++) {
 const students = [
     {name:"john", grade:80},
     {name:"martins", grade:78},
-    {name:"Seyi", grade:04},
+    {name:"Seyi", grade:4}
 ]
 for(let i=0; i < students.length; i++) {
     console.log("Student:", students[i].name, "Grade:", students[i].grade);
@@ -31,4 +31,18 @@ const aboutMe = [
 ]
 for(let i=0; i<aboutMe.length;i++) {
     console.log("My Name is:", aboutMe[i].name, "and i school in", aboutMe[i].school, "i'm currently studying", aboutMe[i].course);
+}
+
+//while loop
+let prince = 0;
+while (prince < 5) {
+    console.log("count is:" + prince);
+    prince++
+}
+
+const colorz=["red", "green", "blue", "yellow"]
+let bt=0;
+while ( bt<colorz.length) {
+    console.log("The count is:" +colorz[bt]);
+    bt++
 }
