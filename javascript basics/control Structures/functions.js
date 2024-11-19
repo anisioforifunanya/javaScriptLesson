@@ -18,10 +18,19 @@ console.log(sumy)
 
 //2.) FUnction Declaration for Multiplication.
 
-function producty(a,b) {
+function multi(a,b) {
     return(a*b)
     //return is what the program should process
 }
 
-const multiply = producty(2,4);
+const multiply = multi(2,4);
 console.log(multiply)
+
+
+function greet (name) {
+    console.log(`Hello ${name} Welcome to our App`)
+}
+greet ("ALEX")
+
+const name = "MArtins"
+console.log(`hello ${name}`)
