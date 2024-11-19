@@ -50,3 +50,28 @@ function named(userx, coursex)
     console.log(`I am ${userx} and i am doing ${coursex} at new horizon`)
 }
 named ("billy", "Programming")
+
+//function Expression
+const add2 = function (a, b) {
+    return a + b
+}
+const sum2 =add(1, 2)
+console.log(sum2)
+
+
+const  myName = function(NameOfUser) {
+return `Hello, Mr ${NameOfUser} Welcome to New Horizon`
+}
+
+const greetings = myName("OJKO");
+console.log(greetings)
+
+
+
+
+const greeti = function(name) {
+    return `Hello, ${name}! Welcome!`;
+};
+
+const greeting = greeti("Billy");
+console.log(greeting);
