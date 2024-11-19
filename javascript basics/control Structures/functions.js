@@ -31,6 +31,22 @@ function greet (name) {
     console.log(`Hello ${name} Welcome to our App`)
 }
 greet ("ALEX")
+greet ("Seyi")
+greet ("Tolu")
+greet ("ify")
+greet ("john")
+greet ("boy")
+greet ("girl")
+greet ("ALEX")
+greet ("uyt")
+greet ("iji")
 
 const name = "MArtins"
 console.log(`hello ${name}`)
+
+
+function named(userx, coursex)
+{
+    console.log(`I am ${userx} and i am doing ${coursex} at new horizon`)
+}
+named ("billy", "Programming")
