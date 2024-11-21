@@ -60,7 +60,7 @@ console.log(sum2)
 
 
 const  myName = function(NameOfUser) {
-return `Hello, Mr ${NameOfUser} Welcome to New Horizon`
+return (`Hello, Mr ${NameOfUser} Welcome to New Horizon`)
 }
 
 const greetings = myName("OJKO");
@@ -75,3 +75,20 @@ const greeti = function(name) {
 
 const greeting = greeti("Billy");
 console.log(greeting);
+
+//EXAMPLE
+const prince1 = function(name, course, school) {
+    return(`Hello dear, ${name}, i am studing ${course} in ${school}`);
+}
+const prince2= prince1("vyui", "yuet", "ytey")
+console.log(prince2);
+
+//EXAMPLE
+const logIn1 = function(namez) { 
+    console.log(`${namez} is logged in`)
+}
+logIn1("seyi");
+
+//OR
+const logIn = namez => console.log(`${namez} is logged in`)
+logIn("seyi");
